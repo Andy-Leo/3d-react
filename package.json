@@ -9,6 +9,7 @@
     "configurator"
   ],
   "main": "src/index.js",
+  "homepage": "https://andy-leo.github.io/3d-react",
   "dependencies": {
     "@react-three/drei": "4.3.2",
     "@react-three/fiber": "6.0.16",
@@ -23,6 +24,8 @@
     "typescript": "3.8.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
