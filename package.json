@@ -1,0 +1,39 @@
+{
+  "name": "3d-react",
+  "version": "1.0.0",
+  "description": "A super small configurator that shows you how to make GLTF assets dynamic.",
+  "keywords": [
+    "valtio",
+    "state",
+    "gltf",
+    "configurator"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "4.3.2",
+    "@react-three/fiber": "6.0.16",
+    "react": "17.0.2",
+    "react-colorful": "5.1.4",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.128.0",
+    "valtio": "1.0.3"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "author": "",
+  "license": "ISC"
+}
